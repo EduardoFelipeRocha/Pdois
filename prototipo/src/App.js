@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
 import './App.css';
-import Cad from './cad'; 
-import Dashboard from './Dashboard'; 
+import Cad from './cad.js'; 
+import Dashboard from './Dashboard.js'; 
 
 function Login() {
   const navigate = useNavigate();
